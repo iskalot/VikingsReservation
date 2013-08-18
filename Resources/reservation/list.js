@@ -70,7 +70,7 @@ getReservations.onload = function(){
 		  
 		  tableData.push(row);
 		}
-	}
+	};
 	
 	var tableView = Ti.UI.createTableView({
 	  backgroundColor:'white',
@@ -78,4 +78,4 @@ getReservations.onload = function(){
 	});
 	
 	win.add(tableView);
-}
+};
