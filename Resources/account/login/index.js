@@ -1,4 +1,4 @@
-
+require('reservation/index');
 loginWindow = function(navController) {	
 	
 	var win = Ti.UI.createWindow({

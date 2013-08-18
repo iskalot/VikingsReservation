@@ -5,7 +5,7 @@ reservationWindow = function(navController){
 	    title: 'New Reservation',
 	    backgroundColor: '#fff',
 	    navBarHidden: true,
-	    url: 'reservation/new.js',
+	    url: '/reservation/new.js',
 	    navigation: navController
 	});
 	
@@ -19,7 +19,7 @@ reservationWindow = function(navController){
 	    title: 'My Reservations',
 	    backgroundColor: '#fff',
 	    navBarHidden: true,
-	    url: 'reservation/list.js',
+	    url: '/reservation/list.js',
 	    navigation: navController
 	});
 	var listreservationstab = Titanium.UI.createTab({  
