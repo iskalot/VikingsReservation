@@ -217,7 +217,7 @@ createWindow = function(navController){
 		createAccount.onerror = function(){
 			activityIndicator.hide();
 			alert("An error has occured. Please try again.");
-		}
+		};
 		
 		createAccount.onload = function()
 		{
@@ -325,7 +325,7 @@ createWindow = function(navController){
 	
 	return win;
 	
-}
+};
 
 module.exports = createWindow;
 

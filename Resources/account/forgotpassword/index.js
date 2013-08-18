@@ -29,6 +29,6 @@ forgotPassWindow = function(){
 	
 	return win;
 	
-}
+};
 
 module.exports = forgotPassWindow;
